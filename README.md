@@ -1,6 +1,6 @@
-# Sentiment-analysis-from-text-feedback(KM396)
-# problem-statement-description
- Webportals like Bhuvan get vast amount of feedback from the users. To go through all the feedbacks can be a tedious job. Develop software   to categorize opinions expressed in feedback forums. This can be utilized for feedback management system. The software must provide the   following output. 1) Classification of individual comments/reviews. 2) Determining overall rating based on individual comments/reviews.   The Multi-Domain Sentiment Dataset contains product reviews taken from Amazon.com from many product types (domains).     http://jmcauley.ucsd.edu/data/amazon/
+# Sentiment-analysis-from-text-feedback
+ The ml model will classify the reviews into positive and negative reviews and based on that it will generate the average rating of the product. the architecture used here is RNN(Recurrent Neural Network).   
+ The Multi-Domain Sentiment Dataset contains product reviews taken from Amazon.com from many product types (domains).     http://jmcauley.ucsd.edu/data/amazon/
  # About-Dataset
  This dataset contains several million reviews of Amazon products, with the reviews separated into two classes for positive and negative reviews. The two classes are evenly balanced here.
 
